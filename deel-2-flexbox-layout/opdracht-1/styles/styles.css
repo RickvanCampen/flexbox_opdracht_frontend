@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    flex: 1;
+}
+
+article {
+    flex: 1;
+    flex-basis: 70%;
+}
+
+nav, aside {
+    flex-basis: 15%;
+}
+
+header, footer {
+    flex-shrink: 0;
+}
+
+
+article {
+    order: 1;
+}
+
+nav {
+    order: 3;
+}
+
+aside {
+    order: 2;
+}
+
+header {
+    order: 0;
+}
+
+footer {
+    order: 5;
+}

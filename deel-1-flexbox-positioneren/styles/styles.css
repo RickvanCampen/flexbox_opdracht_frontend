@@ -1,0 +1,95 @@
+
+.opdracht-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.opdracht-1 ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.opdracht-1 li {
+    margin: 50px;
+}
+.opdracht-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.opdracht-2 ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+.opdracht-2 li {
+    margin: 0;
+    text-align: center;
+}
+
+
+.opdracht-3 {
+    display: flex;
+    flex-direction: row;
+}
+
+.opdracht-3 ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.opdracht-3 li {
+    align-self: flex-start;
+}
+
+.opdracht-3 li:nth-child(2) {
+    align-self: center;
+}
+
+.opdracht-3 li:nth-child(3) {
+    align-self: flex-end;
+}
+.opdracht-4 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.opdracht-4 ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.opdracht-4 li {
+    margin: 10px;
+}
+.opdracht-5 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.opdracht-5 div {
+    display: flex;
+    flex: 1;
+}
+
+.opdracht-5 ul:nth-child(2) {
+    align-items: center;
+}
+
+.opdracht-5 ul:last-child {
+    align-items: flex-end;
+}
+.opdracht-5 li {
+    margin: 20px;
+}
