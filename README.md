@@ -278,6 +278,4 @@ De landingspagina begint langzaam vorm te krijgen. Je gaat deze pagina nu uitbre
 * Let op: je hoeft géén gebruik te maken van media-queries.
 
 
-
-# mijn_frontend_opdracht_Flexbox
 # mijn_frontend_opdracht_flexbox
